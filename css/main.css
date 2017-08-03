@@ -1,0 +1,117 @@
+/* Base red: #ff2d00 */
+/* Complementary blue: #0776a0 */
+/* Complementary blue highlight: #2b84a6 */
+/* Complementary orange: #ff8500 */
+/* Complementary green: 00b945 */
+/* http://paletton.com/#uid=7080u0kw0w0jvDaoOy4y4oODajv */
+
+/* Global styles */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 300;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #acabab, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #acabab, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #acabab, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #acabab, #f0f0f0); 
+  margin: 25px 0;
+}
+
+a {
+  color: #0776A0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2b84a6;
+  text-decoration: underline;
+}
+
+/* Utility classes */
+
+.content-wrapper {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+/* Component classes */
+
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page-header,
+.page-footer {
+  border-bottom: 1px solid #ff2d00;
+  border-top: 1px solid #ff2d00;
+  background-color: #ff2d00;
+}
+
+.page-header {
+  flex: none;
+}
+
+.page-header__logo {
+  display: block;
+  height: 300px;
+  margin: 5px auto;
+}
+
+.page-main {
+  flex: 1 0 auto;
+}
+
+.page-footer {
+  color: white;
+  flex: 1;
+  font-size: 20px;
+}
+
+.page-footer a {
+  color: white;
+}
+
+.page-footer__contact-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.page-footer__contact-list li {
+  padding-left: 27px;
+  position: relative;
+}
+
+.page-footer__contact-list .fa {
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.page-footer .fa-linkedin-square {
+  left: 1px;
+}
