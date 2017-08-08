@@ -86,6 +86,10 @@ a:hover {
   flex: 1 0 auto;
 }
 
+.latest-github-projects-list li {
+  margin-bottom: 10px;
+}
+
 .page-footer {
   color: white;
   flex: 1;
